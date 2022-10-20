@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+.bgImage {
+    width: 1250px;
+    height: 900px;
+    position: absolute;
+    margin-top: -40px;
+    
+}
+h1.fresh{
+    position: relative;
+    color: white;
+    padding-top: 150px;
+    padding-left: 260px;
+    padding-right: 200px;
+     font-family:'Times New Roman', Times, serif;
+     font-style: bold;
+    font-size: 5em;
+    text-align: center;
+}
+pre{
+    position: relative;
+    color: white;
+    padding-left: 300px;
+     font-family:'Times New Roman', Times, serif;
+     font-style:oblique;
+    font-size: 2em;
+}
+nav.abcd{
+    position: relative;
+    color: wheat;
+    padding-left: 300px;
+    font-size: 1.6em;
+    list-style: none;
+    display: flex;
+    
+   
+    
+    
+}
+nav ul li{
+    position: relative;
+    list-style: none;
+   display: inline-block;
+   
+   text-align: justify;
+   word-wrap: break-word;
+   padding: 10px;
+   margin-left: -20px;
+}
+li.love :hover{
+    color: rgb(230, 157, 21);
+    cursor: pointer;
+    
+}
+a.love{
+    color: inherit;
+
+}
+.containerser{
+    position: relative;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+   
+    margin: 10px;
+
+    border-radius: 5px;
+}
+.containerser i{
+    border: 1px solid white;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(244, 184, 71);
+    cursor: pointer;
+    
+}
+.containerser i:hover{
+    background-color: wheat;
+    color: rgb(2, 2, 2);
+}
+footer{
+    margin-left: -80px;
+}

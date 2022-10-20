@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <style>
+    .columns {
+      float: left;
+      width: 33.3%;
+      padding: 2px;
+    }
+
+    /* Style the list */
+    .price {
+      list-style-type: none;
+      border: 1px solid #eee;
+      margin: 0;
+      padding: 0;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+    }
+
+    /* Add shadows on hover */
+    .price:hover {
+      box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    /* Pricing header */
+    .price .header {
+      background-color: #111;
+      color: white;
+      font-size: 25px;
+    }
+
+    /* List items */
+    .price li {
+      border-bottom: 1px solid #eee;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Grey list item */
+    .price .grey {
+      background-color: #eee;
+      font-size: 20px;
+    }
+
+    /* The "Sign Up" button */
+    .button {
+      background-color: #04aa6d;
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    /* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+    @media only screen and (max-width: 600px) {
+      .columns {
+        width: 100%;
+      }
+    }
+    .columns {
+      box-sizing: border-box;
+      padding-left: 10px;
+      padding-top: 20px;
+    }
+    .foot {
+      display: inline-block;
+      background-color: rgb(43, 41, 41);
+      color: white;
+      list-style: none;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      border: 1px solid black;
+      border-top-left-radius: 100px;
+      border-top-right-radius: 100px;
+      width: 97%;
+      height: 315px;
+    }
+    .list {
+      position: absolute;
+    }
+    h4 {
+      position: relative;
+      margin: -80px 50px;
+    }
+    #item1 {
+      margin-left: 400px;
+      margin-top: 200px;
+    }
+    #item2 {
+      margin-left: 500px;
+      margin-top: 200px;
+    }
+    #item3 {
+      margin-left: 610px;
+      margin-top: 200px;
+    }
+    #item4 {
+      margin-left: 700px;
+      margin-top: 200px;
+    }
+    p {
+      width: 400px;
+      margin-left: 400px;
+    }
+  </style>
+  <body>
+    <h1 align="center">Courses</h1>
+    <div>
+      <div class="columns">
+        <ul class="price">
+          <li class="header">BEGINNER</li>
+          <li class="grey">$ 9.99 / year</li>
+          <li>10GB Storage</li>
+          <li>10 Emails</li>
+          <li>10 Domains</li>
+          <li>1GB Bandwidth</li>
+          <li class="grey"><a href="#" class="button">Sign Up</a></li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+          <li class="header">INTERMEDIATE</li>
+          <li class="grey">$ 29.99 / year</li>
+          <li>50GB Storage</li>
+          <li>1000 Emails</li>
+          <li>20 Domains</li>
+          <li>5GB Bandwidth</li>
+          <li class="grey"><a href="#" class="button">Sign Up</a></li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+          <li class="header">ELITE</li>
+          <li class="grey">$ 49.99 / year</li>
+          <li>500GB Storage</li>
+          <li>Unlimited Emails</li>
+          <li>20 Domains</li>
+          <li>10GB Bandwidth</li>
+          <li class="grey"><a href="#" class="button">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot">
+      <h1 align="center">FitPro</h1>
+      <p align="center">
+        FitPro is a website which is on its way to spread awareness among the
+        people about the benefits of having a good physical and mental health.
+        It's aim is to make every INDIAN free from all diseases and make the
+        DISEASE FREE INDIA.
+      </p>
+      <h4>CopyRight @ 2022 &nbsp;&nbsp;FitPro</h4>
+      <li class="list" id="item1">
+        <i class="fa fa-facebook">&nbsp;&nbsp;&nbsp;Facebook</i>
+      </li>
+      <li class="list" id="item2">
+        <i class="fa fa-instagram">&nbsp;&nbsp;&nbsp;Instagram</i>
+      </li>
+      <li class="list" id="item3">
+        <i class="fa fa-envelope">&nbsp;&nbsp;&nbsp;G-Mail</i>
+      </li>
+      <li class="list" id="item4">
+        <i class="fa fa-user">&nbsp;&nbsp;&nbsp;LinkedIn</i>
+      </li>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,356 @@
+.x {
+  color: azure;
+}
+.y {
+  padding-left: 80px;
+}
+.y:hover {
+  color: blue;
+}
+#first {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 80px;
+  margin-top: 0px;
+  color: rgb(198, 253, 0);
+}
+a {
+  padding-left: 60px;
+  text-decoration: unset;
+}
+#signup a {
+  padding-left: 20px;
+  text-decoration: unset;
+}
+header {
+  background-image: linear-gradient(to right, rgb(182, 200, 237));
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: rgb(251, 248, 245);
+  position: absolute;
+  margin-left: 20px;
+}
+.bn {
+  padding-bottom: 10px;
+}
+a:hover {
+  font-weight: 900;
+  color: rgb(88, 248, 242);
+}
+.a {
+  padding-left: 200px;
+  position: absolute;
+  padding-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  color: aliceblue;
+}
+input {
+  border-radius: 10px;
+}
+.container {
+
+  width: 1210px;
+  background-image: linear-gradient(
+    to right,
+    rgb(111, 247, 70),
+    rgb(115, 243, 252)
+  );
+  padding: 20px;
+  padding-bottom: 40px;
+}
+.a1 {
+  background-color: rgb(9, 9, 9);
+  width: 300px;
+  height: 659px;
+  padding: 5px;
+  border: 2px solid rgb(57, 207, 142);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: aliceblue;
+  border-radius: 15px;
+}
+.a2 {
+  background-color: rgb(10, 10, 10);
+  width: 300px;
+  height: 659px;
+  padding: 5px;
+  border: 2px solid rgb(47, 185, 141);
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 850px;
+  margin-top: -672px;
+  color: white;
+  border-radius: 15px;
+}
+.a3 {
+  background-color: rgb(11, 11, 11);
+  width: 300px;
+  height: 659px;
+  padding: 5px;
+  border: 2px solid rgb(55, 180, 84);
+  border-radius: 5px;
+  position: relative;
+  margin-left: 450px;
+  margin-top: -672px;
+  color: aliceblue;
+  border-radius: 15px;
+}
+img {
+  margin: auto;
+  width: 300px;
+  height: 250px;
+}
+#im1 {
+  padding-left: 700px;
+  padding-top: 30px;
+  margin: auto;
+  background-repeat: no-repeat;
+  width: 440px;
+  height: 300px;
+  position: relative;
+}
+#pro {
+  background-color: rgb(199, 232, 232);
+}
+#partner {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: underline;
+  background-color: aliceblue;
+  color: rgb(101, 226, 17);
+  padding: 30px;
+  margin: 0px;
+}
+#pnr {
+  text-align: center;
+  position: absolute;
+  text-align: left;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.ppp {
+  background-color: black;
+  padding: 20px;
+}
+.aw {
+  color: rgb(117, 68, 3);
+  font-size: x-large;
+  color: rgb(250, 250, 244);
+  background-image: url(pexels-lukas-669584.jpg);
+  background-size: 1400px 1300px;
+
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+.ax {
+  margin-left: 400px;
+  font-weight: 400;
+}
+.b {
+  margin-left: 400px;
+}
+.c {
+  margin-left: 400px;
+}
+.d {
+  margin-left: 400px;
+}
+.z {
+  margin-left: 400px;
+}
+#sign {
+  text-align: center;
+  color: rgb(248, 248, 243);
+}
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+.cont {
+  width: 300px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+#box11 {
+  margin-top: 50px;
+  margin: 20px;
+}
+
+#box12 {
+  margin: 20px;
+}
+#box13 {
+  margin: 20px;
+}
+#img1 {
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 200px;
+}
+#img2 {
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 200px;
+}
+#img3 {
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 200px;
+}
+.team {
+  text-align: center;
+  color: brown;
+  margin-left: 60px;
+}
+p {
+  text-align: center;
+}
+.follow {
+  margin-left: 110px;
+  padding: 10px 30px;
+  background-color: aqua;
+  border: 1px;
+  border-radius: 20px;
+  image-orientation: 120deg;
+}
+#logo {
+  width: 30px;
+  height: 30px;
+  padding-top: 3px;
+}
+#logo:hover {
+  cursor: alias;
+}
+.equip {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  padding: 20px 50px;
+  margin: 0px 0px;
+  border: 1px #eee;
+  border-radius: 100px;
+  opacity: 1;
+  /* background-blend-mode: darken; */
+}
+.equipment {
+  padding-left: 80px;
+  padding-top: 60px;
+  margin: 0px 80px;
+  text-align: center;
+  opacity: 1;
+  /* background-blend-mode: darken; */
+
+}
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 2px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+.columns {
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+#bg{
+  background-image: linear-gradient(to right,wheat,white,wheat);
+  background-size: 1400px 1300px;
+  background-repeat: no-repeat;
+  
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 300px 600px 170px;
+  background-color: rgb(50, 49, 49);
+  color: aliceblue;
+  padding: 30px;
+  border: 1px solid black;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+@media screen and (min-width:300px) and (max-width:600px){
+  .grid{
+      
+  grid-template-columns: 100px;
+  
+  }
+  
+}
+.atom h1{
+  text-align: center;
+}
+.atom i{
+  display: block;
+  padding: 10px;
+  margin-left: 50px;
+  color: aliceblue;
+}
+.loveyou p{
+  width: 500px;
+  text-align: center;
+  margin-left: 30px;
+}
+
